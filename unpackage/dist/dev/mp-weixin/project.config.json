@@ -1,0 +1,44 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.9.2",
+  "appid": "touristappid",
+  "projectname": "uni_app_learn",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "主界面",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "详情页面",
+          "query": "newsId=5158607",
+          "id": 1,
+          "pathName": "pages/news_detali/news_detali"
+        }
+      ]
+    }
+  }
+}
